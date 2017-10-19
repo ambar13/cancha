@@ -1,0 +1,84 @@
+.cancha {
+	background: #badfa8;
+	height: 500px;
+	width: 1000px;
+  position: relative;
+
+}
+
+.marco {
+  height: 460px;
+	width: 960px;
+	box-sizing: border-box;
+	border: 5px solid white;
+	margin: 15px 20px 15px 20px;
+	position: absolute;
+	text-align: center;
+  
+}
+.arco {
+	height: 190px;
+	width: 100px;
+	border: 5px 5px 5px 0px;
+	border-style: solid solid solid none;
+	/* margin: auto; */
+	border-color: white;
+	display: inline-block;
+	position: absolute;
+	left: 0%;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.circ {
+	height: 190px;
+	width: 190px;
+	border: 5px solid white;
+	border-radius: 100%;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+
+.arco2 {
+	height: 190px;
+	width: 100px;
+	border: 5px 0px 5px 5px;
+	border-style: solid none solid solid;
+	border-color: white;
+	display: inline-block;
+	position: absolute;
+	left: 847px;
+	top: 50%;
+	margin-top: -100px;
+}
+
+.pelota{
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+	box-shadow: 2px 2px 4px 1px black;
+	opacity: 0.7;
+	background-color: white;
+}
+
+.arco .pelota{
+	position: absolute;
+	left: 85px;
+}
+
+.circ .pelota{
+	position: absolute;
+	top:-80px;
+	left: 95px;
+}
+
+.arco2 .pelota{
+	position: absolute;
+	top: 155px;
+	left: -35px;
+
+}
